@@ -45,17 +45,6 @@ SELECT *  FROM countries LIMIT  10;
 CREATE TEMPORARY TABLE countries_temp (name VARCHAR(120));
 SELECT * FROM countries_temp;
 
--- INSERT INTO  countries_temp VALUES
-	-- ('Russian Federation'),
-	-- ('Germany'),
-	-- ('France'),
-	-- ('Netherlands'),
-	-- ('Poland');
-
--- SELECT name FROM countries_temp ORDER BY RAND () LIMIT  1;
--- UPDATE countries 
--- 		SET name = (SELECT name FROM countries_temp ORDER BY RAND () LIMIT  1)
-
 
 -- Таблица  messages
 SELECT *  FROM messages LIMIT 20;
